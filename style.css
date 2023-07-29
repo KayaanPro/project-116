@@ -1,0 +1,19 @@
+h2{
+    font-size: 30px !important;
+}
+
+.btn-success:hover{
+    background-color: rgb(58, 105, 181);
+}
+
+canvas{
+    animation-name: example;
+    animation-duration: 4ms;
+    animation-iteration-count: infinite;
+    border-radius: 10px;
+}
+
+@keyframes example{
+    from{box-shadow: 1px 1px 30px rebeccapurple;}
+    to{box-shadow: 1px 1px 30px rgb(255, 229, 29);}
+}
